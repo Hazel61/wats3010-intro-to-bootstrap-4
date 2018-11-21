@@ -7,3 +7,13 @@
 .footer-item-flex {
     flex: 0 1 auto;
 }
+.card-img-top:hover {
+    transform: scale(2, 2);
+    float: none;
+    transition-duration: 2s;
+    transition: all .8s ease-in-out;
+    transition-timing-function: cubic-bezier(0.25, 0.74, 0.22, 0.99);
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+}
