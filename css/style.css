@@ -1,4 +1,9 @@
 /* Site Styles Go Here */
+
+body {
+        background-color: #e3e6e8;
+    }
+
 .flex_footer {
     display: flex;
     flex-direction: row;
@@ -16,4 +21,10 @@
     position: relative;
     z-index: 3;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #c8cbcf;
+    }
 }
